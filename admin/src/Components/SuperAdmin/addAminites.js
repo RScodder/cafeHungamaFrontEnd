@@ -29,7 +29,7 @@ class addAminity extends React.Component {
             <h3>Add Aminity:</h3>
             <form onSubmit={this.handleFormSubmit}>
                 <label htmlFor="amenity_name">
-                    Voucher Name: &nbsp;&nbsp;
+                    Amintiy Name: &nbsp;&nbsp;
         <input
                         id="amenity_name"
                         value={this.state.vouchername}

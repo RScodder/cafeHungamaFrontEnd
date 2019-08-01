@@ -29,7 +29,7 @@ class addCity extends React.Component {
             <h3>Add City/State:</h3>
             <form onSubmit={this.handleFormSubmit}>
                 <label htmlFor="city">
-                    Voucher Name: &nbsp;&nbsp;
+                    City/State Name: &nbsp;&nbsp;
             <input
                         id="city"
                         value={this.state.vouchername}

@@ -29,7 +29,7 @@ class AddLocality extends React.Component {
             <h3>Add Locality:</h3>
             <form onSubmit={this.handleFormSubmit}>
                 <label htmlFor="locality">
-                    Voucher Name: &nbsp;&nbsp;
+                    Locality Name : &nbsp;&nbsp;
         <input
                         id="locality"
                         value={this.state.vouchername}
